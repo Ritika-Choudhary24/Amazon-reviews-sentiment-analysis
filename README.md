@@ -129,6 +129,7 @@ nltk.download('words')
 - ~568,000 reviews
 - Columns used: `Id`, `Score` (1–5 stars), `Text`
 - Sampled 5,000 rows for transformer model inference (due to compute constraints)
+- After downloading, place `Reviews.csv` in the root folder of the project before running the notebook.
 
 ---
 
