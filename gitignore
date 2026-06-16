@@ -1,0 +1,69 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Environment variables ────────────────────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ── Jupyter Notebook ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ── Data files (large / sensitive) ───────────────────────────────────────────
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+data/
+datasets/
+
+# ── HuggingFace model cache ───────────────────────────────────────────────────
+# Downloaded transformer models are large — don't commit them
+~/.cache/huggingface/
+.cache/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# ── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Build / dist ─────────────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
