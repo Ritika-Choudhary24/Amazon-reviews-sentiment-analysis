@@ -134,7 +134,7 @@ nltk.download('words')
 
 ## 📊 Model Performance
 
-Evaluated on **4,955 reviews** (sampled from the full dataset), with star ratings mapped to sentiment labels: 1–2 → negative, 3 → neutral, 4–5 → positive.
+Evaluated on **5,000 reviews** (sampled from the full dataset), with star ratings mapped to sentiment labels: 1–2 → negative, 3 → neutral, 4–5 → positive.
 
 ### Overall Accuracy
 
