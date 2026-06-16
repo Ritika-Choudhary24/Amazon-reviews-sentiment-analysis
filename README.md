@@ -171,6 +171,10 @@ Evaluated on **5,000 reviews** (sampled from the full dataset), with star rating
 
 ---
 
+⚠️ Note: The RoBERTa model used (cardiffnlp/twitter-roberta-base-sentiment) was pre-trained on Twitter data, not product reviews. This domain mismatch likely explains its weaker performance on the neutral class, as tweet language tends to be more polarized and less ambiguous than Amazon review text.
+
+---
+
 ## 🚀 Future Improvements
 
 - [ ] Fine-tune RoBERTa on the Amazon reviews dataset for domain-specific accuracy
