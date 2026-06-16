@@ -339,3 +339,17 @@ if analyze_button:
 
 else:
     st.info("Enter a review and click **Analyze Sentiment** to see the dashboard.")
+
+# -----------------------------
+# Footer
+# -----------------------------
+st.markdown(
+    """
+    <hr>
+    <p style='text-align: center; color: gray; font-size: 15px;'>
+        Made with ❤️ by <b>Ritika Choudhary</b><br>
+        Amazon Reviews Sentiment Analysis Project
+    </p>
+    """,
+    unsafe_allow_html=True
+)
