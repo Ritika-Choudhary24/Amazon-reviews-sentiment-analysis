@@ -132,6 +132,37 @@ nltk.download('words')
 
 ---
 
+## 📊 Model Performance
+
+Evaluated on **4,955 reviews** (sampled from the full dataset), with star ratings mapped to sentiment labels: 1–2 → negative, 3 → neutral, 4–5 → positive.
+
+### Overall Accuracy
+
+| Model | Accuracy |
+|-------|----------|
+| VADER | 80% |
+| RoBERTa | **86%** |
+
+### VADER — Classification Report
+
+| Sentiment | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| Negative | 0.56 | 0.41 | 0.48 | 694 |
+| Neutral | 0.14 | 0.04 | 0.06 | 375 |
+| Positive | 0.85 | 0.95 | 0.89 | 3886 |
+| **Weighted Avg** | **0.75** | **0.80** | **0.77** | 4955 |
+
+### RoBERTa — Classification Report
+
+| Sentiment | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| Negative | 0.72 | 0.77 | 0.75 | 694 |
+| Neutral | 0.27 | 0.25 | 0.26 | 375 |
+| Positive | 0.93 | 0.93 | 0.93 | 3886 |
+| **Weighted Avg** | **0.85** | **0.86** | **0.86** | 4955 |
+
+---
+
 ## 📈 Key Findings
 
 - **RoBERTa outperforms VADER** on capturing nuanced sentiment, especially for sarcastic or context-dependent reviews
