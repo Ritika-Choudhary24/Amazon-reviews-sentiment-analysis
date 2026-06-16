@@ -5,5 +5,8 @@ nltk
 transformers
 torch
 scipy
-plotly
 matplotlib
+seaborn
+scikit-learn
+tqdm
+plotly
