@@ -1,16 +1,16 @@
-# 🎭 Amazon Reviews Sentiment Analysis
+#  Amazon Reviews Sentiment Analysis
 
 A comparative NLP project that analyzes sentiment in Amazon product reviews using two approaches — **VADER** (rule-based) and **RoBERTa** (transformer-based) — with an interactive Streamlit web app for live predictions.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project explores how well different sentiment analysis techniques align with actual star ratings from Amazon customer reviews. It compares a lightweight lexicon-based model (VADER) against a state-of-the-art pre-trained transformer (RoBERTa), providing both quantitative evaluation and an interactive demo app.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 amazon-reviews-sentiment-analysis/
@@ -23,7 +23,7 @@ amazon-reviews-sentiment-analysis/
 
 ---
 
-## 🔍 What's Inside the Notebook
+##  What's Inside the Notebook
 
 ### 1. Exploratory Data Analysis (EDA)
 - Distribution of star ratings (1–5) across the dataset
@@ -56,7 +56,7 @@ amazon-reviews-sentiment-analysis/
 
 ---
 
-## 🎬 See It In Action
+##  See It In Action
 
 The video below walks through the app — enter any text, and instantly get sentiment predictions from both VADER and RoBERTa with confidence scores.
 
@@ -64,7 +64,7 @@ https://github.com/user-attachments/assets/04230404-841e-488d-98a8-a6f50f5ed367
 
 ---
 
-## 🌐 Streamlit App
+##  Streamlit App
 
 The app (`app.py`) provides a live interface to:
 - Enter any text and get real-time sentiment predictions
@@ -83,7 +83,7 @@ Then open `http://localhost:8501` in your browser.
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -122,7 +122,7 @@ nltk.download('words')
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **Amazon Fine Food Reviews** — available on [Kaggle](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 
@@ -133,7 +133,7 @@ nltk.download('words')
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 Evaluated on **5,000 reviews** (sampled from the full dataset), with star ratings mapped to sentiment labels: 1–2 → negative, 3 → neutral, 4–5 → positive.
 
@@ -164,7 +164,7 @@ Evaluated on **5,000 reviews** (sampled from the full dataset), with star rating
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 
 - **RoBERTa outperforms VADER** on capturing nuanced sentiment, especially for sarcastic or context-dependent reviews
 - VADER works well for clearly positive/negative language but struggles with neutral and ambiguous text
@@ -172,11 +172,11 @@ Evaluated on **5,000 reviews** (sampled from the full dataset), with star rating
 
 ---
 
-⚠️ Note: The RoBERTa model used (cardiffnlp/twitter-roberta-base-sentiment) was pre-trained on Twitter data, not product reviews. This domain mismatch likely explains its weaker performance on the neutral class, as tweet language tends to be more polarized and less ambiguous than Amazon review text.
+ Note: The RoBERTa model used (cardiffnlp/twitter-roberta-base-sentiment) was pre-trained on Twitter data, not product reviews. This domain mismatch likely explains its weaker performance on the neutral class, as tweet language tends to be more polarized and less ambiguous than Amazon review text.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - [ ] Fine-tune RoBERTa on the Amazon reviews dataset for domain-specific accuracy
 - [ ] Add aspect-based sentiment analysis (e.g., "packaging was bad, taste was great")
@@ -185,12 +185,12 @@ Evaluated on **5,000 reviews** (sampled from the full dataset), with star rating
 
 ---
 
-## 🙋 Author
+##  Author
 
 **Ritika Choudhary**
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source under the [MIT License](LICENSE).
